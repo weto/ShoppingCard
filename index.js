@@ -2,6 +2,9 @@ var i18n = require('./config/i18n')();
 var app = require('./app');
 var port = 3001;
 
+
+console.log(port);
+
 i18n.init;
 console.log(i18n.__("versao"));
 var server = app.listen(port, function() {
