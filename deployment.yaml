@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: carrinhocompra
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: carrinhocompra
+    spec:
+      containers:
+      - name: carrinhocompra
+        image: micro_servico_carrinhocompra:v1
+        ports:
+        - containerPort: 3001
