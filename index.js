@@ -1,6 +1,6 @@
 var i18n = require('./config/i18n')();
 var app = require('./app');
-var port = 3000;
+var port = 3001;
 
 i18n.init;
 console.log(i18n.__("versao"));
