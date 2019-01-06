@@ -4,7 +4,7 @@ RUN apk add --no-cache git
 
 RUN apk add --no-cache openssh
 
-RUN git clone https://github.com/weto/produto.git
+RUN git clone https://github.com/weto/ShoppingCard.git
 
 WORKDIR /produto
 
