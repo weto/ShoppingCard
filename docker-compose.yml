@@ -5,4 +5,4 @@ services:
     build: .
     image: micro_servico_carrinhocompra:v1
     ports:
-      - "3000:3000"
+      - "3001:3000"
