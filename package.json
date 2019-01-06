@@ -1,0 +1,23 @@
+{
+  "name": "shoppingcard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "weto.jc@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-validator": "^5.0.1",
+    "http-status": "^1.0.1",
+    "i18n": "^0.8.3",
+    "request": "^2.88.0",
+    "store": "^2.0.12",
+    "swagger-ui-express": "^4.0.1"
+  },
+  "devDependencies": {}
+}
