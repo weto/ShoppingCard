@@ -1,12 +1,9 @@
-# Gestão de Livros
-Para garantir a autenticidade das transações, foi criando um micro serviço para auditar as vendas de livros.
+# Gestão de Carrinho de compras
 
-Instalação: Vá para https://github.com/weto/auditoria_livraria e baixe a versão mais recente.
+Instalação: Vá para https://github.com/weto/carrinhocompra e baixe a versão mais recente.
 
-Dependências: Nodejs Lts
+Dependências: Docker e Docker Compose
 
-Construindo o aplicativo: Execute o comando no terminal 'npm install' e 'npm start'.
+Construindo o aplicativo: Execute o comando no terminal 'docker-compose up --build'.
 
-Quando você terminar de executar o script acima, o microserviço estará disponível no endereço http://localhost:3003/api/v1.
-
-Acessando a documentação do projeto: http://localhost:3003/
+Acessando a documentação do projeto: http://localhost:3001/
