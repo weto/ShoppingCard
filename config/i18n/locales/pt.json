@@ -1,7 +1,7 @@
 {
 	"versao": "0.0.1",
 	"msg_versao": "VERSÃO ATIVA: VSMAPI {versao}",
-	"msg_started_api": "SERVIDOR INICIADO NA PORTA {port} COM SUCESSO!!!",
+	"msg_started_api": "SERVIDOR INICIADO NA PORTA 3001 COM SUCESSO!!!",
 
 	"user": "Usuário",
 	"identificador": "ID",
