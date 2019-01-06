@@ -6,7 +6,7 @@ RUN apk add --no-cache openssh
 
 RUN git clone https://github.com/weto/ShoppingCard.git
 
-WORKDIR /produto
+WORKDIR /ShoppingCard
 
 RUN npm install
 

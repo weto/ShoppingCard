@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  produto:
+  carrinhocompra:
     build: .
-    image: micro_servico_produto:v1
+    image: micro_servico_carrinhocompra:v1
     ports:
       - "3000:3000"
