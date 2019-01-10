@@ -1,6 +1,6 @@
 # Gestão de Carrinho de compras
 
-Instalação: Vá para https://github.com/weto/carrinhocompra e baixe a versão mais recente.
+Instalação: Vá para https://github.com/weto/carrinhocompra e faça o download da versão recente.
 
 Dependências: Docker e Docker Compose
 
